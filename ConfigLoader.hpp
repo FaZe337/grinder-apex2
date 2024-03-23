@@ -17,16 +17,16 @@ struct ConfigLoader {
     bool IS_GAME_BR = true;
 
     //features
-    bool FEATURE_AIMBOT_ON = true;
-    bool FEATURE_SENSE_ON = true;
+    bool FEATURE_AIMBOT_ON = false;
+    bool FEATURE_SENSE_ON = false;
     bool FEATURE_LOBA_ON = true;
     bool FEATURE_SPECTATOR_ON = true;
-    bool FEATURE_QUICKTURN_ON = true;
+    bool FEATURE_QUICKTURN_ON = false;
     bool FEATURE_SKINCHANGER_ON = true;
-    bool FEATURE_TRIGGERBOT_ON = true;
-    bool FEATURE_NORECOIL_ON = true;
+    bool FEATURE_TRIGGERBOT_ON = false;
+    bool FEATURE_NORECOIL_ON = false;
     bool FEATURE_PRINT_LEVELS_ON = true;
-    bool FEATURE_SUPER_GLIDE_ON = true;
+    bool FEATURE_SUPER_GLIDE_ON = false;
     bool FEATURE_MAP_RADAR_ON = true;
     bool FEATURE_RADAR_ON = true;
 
